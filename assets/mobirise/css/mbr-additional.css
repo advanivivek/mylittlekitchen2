@@ -1047,50 +1047,21 @@ body {
     height: auto;
   }
 }
-.cid-qZtnEmBX26 {
-  background-image: url("../../../assets/images/katherine-chase-246696-unsplash-2000x1333.jpg");
+.cid-r6JLKgAbRH {
+  background-image: url("../../../assets/images/mylk-bg-1-2000x1333.jpg");
 }
-.cid-qZtnEmBX26 .form-block {
-  background: #444444;
-  padding: 2rem;
-  outline: 1px dashed #73d964;
-  outline-offset: -15px;
+.cid-r6JLKgAbRH .mbr-overlay {
+  background: #ffffff;
 }
-.cid-qZtnEmBX26 .mbr-section-title {
-  margin: 0;
+.cid-r6JLKgAbRH .mbr-section-title {
+  letter-spacing: .5rem;
+  text-align: left;
 }
-.cid-qZtnEmBX26 .row {
-  justify-content: space-between;
-  align-items: center;
+.cid-r6JLKgAbRH .mbr-text,
+.cid-r6JLKgAbRH .mbr-section-btn {
+  text-align: left;
 }
-.cid-qZtnEmBX26 .input-wrap {
-  padding: 0;
-  margin-bottom: 1.3em;
-}
-.cid-qZtnEmBX26 .input-wrap input {
-  border: 1px solid #ddd;
-  width: 100%;
-  padding: .5rem 1rem;
-}
-.cid-qZtnEmBX26 .mbr-section-btn .btn {
-  margin-left: 4px !important;
-}
-.cid-qZtnEmBX26 .input-group-btn {
-  display: block;
-}
-@media (max-width: 767px) {
-  .cid-qZtnEmBX26 .text-element {
-    padding-bottom: 1rem;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .cid-qZtnEmBX26 .form-block {
-    border: 1px dashed #73d964;
-    outline: 15px solid #444444;
-  }
-}
-.cid-qZtnEmBX26 .time-block-title,
-.cid-qZtnEmBX26 .btn-row {
+.cid-r6JLKgAbRH .mbr-section-subtitle {
   text-align: left;
 }
 .cid-qZvKLJnKMY {
@@ -1216,6 +1187,7 @@ body {
 .cid-qZvW08Zx46 {
   padding-top: 90px;
   padding-bottom: 75px;
+  background-image: url("../../../assets/images/katherine-chase-246696-unsplash-2000x1333.jpg");
 }
 .cid-qZvW08Zx46 .text-box {
   position: absolute;
