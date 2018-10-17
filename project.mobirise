@@ -34,7 +34,8 @@
         "#f9f9f9",
         "#215db7",
         "#ff0000",
-        "#fffbee"
+        "#fffbee",
+        "#004303"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -431,7 +432,10 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
+            "background-color": "@bgColor",
+            ".mbr-text, .ornament": {
+              "color": "#004304"
+            }
           },
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked>\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#73d964\" condition=\"showUnderline\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text, .ornament\" mbr-theme-style=\"display-7\">MYLK my little kitchen offers a range of services many of which set industry benchmarks for their success. MYLK has extensive experience in food sustainability, special dietary requirements and native Australian foods, and can deliver demonstrations and talks under these guidelines.\n                </p>\n                <div class=\"py-3 ornament align-center\" mbr-if=\"showUnderline\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 133 20\" height=\"20\" width=\"150\" fill=\"{{underlineColor}}\">\n                        <g><path d=\"M127.18,6.19C121-.05,109.94-.24,101.84.1,90.84.56,80,3.3,69.32,5.77c-8,1.86-16,3.63-24,5.72-9.21,2.41-18.6,4.72-28.14,5.19-4.1.2-8.48,0-12.16-2a6.6,6.6,0,0,1-2.7-9A5.46,5.46,0,0,1,7.07,2.77c4-.22,6.73,8.39-.08,4.58a.49.49,0,0,0-.49.84c4.88,3,10.8,0,5.4-4.91C7.6-.63.4,2.06,0,8-1,24,28.25,17,36.29,15.24,53.74,11.37,70.9,6.44,88.53,3.33c11.1-2,24.75-3.54,35.06,2.19a16,16,0,0,1,6.86,8.85c1.29,4.31-4.35,4.2-7,3.52-4.84-1.26-2.42-8,1.22-3,.61.83,2,0,1.4-.82-2.15-2.93-6.71-4.9-7.12.35s8.36,7.24,11.72,4.47C135,15.32,129.91,9,127.18,6.19Z\"></path></g>\n                    </svg>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
@@ -504,7 +508,8 @@
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
             ".mbr-text": {
-              "position": "relative"
+              "position": "relative",
+              "color": "#004303"
             },
             ".mbr-text:before": {
               "color": "@quotesColor",
@@ -583,7 +588,7 @@
               }
             },
             ".mbr-text,.mbr-section-btn": {
-              "color": "#767676"
+              "color": "#004303"
             },
             ".mbr-title": {
               "color": "#73d964"
@@ -821,7 +826,8 @@
               "text-align": "center"
             },
             ".mbr-text,.link": {
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#004303"
             },
             ".mbr-subtitle": {
               "text-align": "center"
@@ -840,7 +846,10 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
+            "background-color": "@bgColor",
+            ".mbr-text, .ornament": {
+              "color": "#004303"
+            }
           },
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#f9e2af\" condition=\"showUnderline\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#fffbee\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text, .ornament\" mbr-theme-style=\"display-7\">His high energy and passion for ethical eating has established him as an industry figure and his expertise is sought regularly to contribute to all forms of media and includes professional consultation, food judging, opinions and event hosting. Receiving numerous accolades &amp; awards for his recipe and menu development his food styling skills are sought for successful food campaigns. Having published stories and articles in book, magazine and online Simon and MYLK has also appeared in all forms of media including:&nbsp;<b>Channel 7’s Sunrise, Today Tonight programs, The Financial Review, The Australian, The Age, Sydney Morning Herald, Courier Mail, Gold Coast Bulletin and numerous other magazines, newspapers and websites.\n                </b></p>\n                <div class=\"py-3 ornament align-center\" mbr-if=\"showUnderline\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 133 20\" height=\"20\" width=\"150\" fill=\"{{underlineColor}}\">\n                        <g><path d=\"M127.18,6.19C121-.05,109.94-.24,101.84.1,90.84.56,80,3.3,69.32,5.77c-8,1.86-16,3.63-24,5.72-9.21,2.41-18.6,4.72-28.14,5.19-4.1.2-8.48,0-12.16-2a6.6,6.6,0,0,1-2.7-9A5.46,5.46,0,0,1,7.07,2.77c4-.22,6.73,8.39-.08,4.58a.49.49,0,0,0-.49.84c4.88,3,10.8,0,5.4-4.91C7.6-.63.4,2.06,0,8-1,24,28.25,17,36.29,15.24,53.74,11.37,70.9,6.44,88.53,3.33c11.1-2,24.75-3.54,35.06,2.19a16,16,0,0,1,6.86,8.85c1.29,4.31-4.35,4.2-7,3.52-4.84-1.26-2.42-8,1.22-3,.61.83,2,0,1.4-.82-2.15-2.93-6.71-4.9-7.12.35s8.36,7.24,11.72,4.47C135,15.32,129.91,9,127.18,6.19Z\"></path></g>\n                    </svg>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
@@ -933,6 +942,9 @@
               ".text-box": {
                 "writing-mode": "bt-rl"
               }
+            },
+            ".mbr-section-text": {
+              "color": "#004303"
             }
           },
           "_name": "features1",
@@ -1026,6 +1038,9 @@
               ".text-box": {
                 "writing-mode": "bt-rl"
               }
+            },
+            ".mbr-section-text": {
+              "color": "#004303"
             }
           },
           "_name": "features1",
@@ -1041,7 +1056,10 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
+            "background-color": "@bgColor",
+            ".mbr-text, .ornament": {
+              "color": "#004303"
+            }
           },
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked>\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#73d964\" condition=\"showUnderline\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text, .ornament\" mbr-theme-style=\"display-7\">MYLK’s passion involves projects promoting the many aspects of food sustainability. Encouraging ethical eating through regional, seasonal and the fair distribution of food, MYLK’s collaboration between business and the food community contributes to the integration and balance of environmental conservation, economic development and social needs.\n\n                </p>\n                <div class=\"py-3 ornament align-center\" mbr-if=\"showUnderline\">\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 133 20\" height=\"20\" width=\"150\" fill=\"{{underlineColor}}\">\n                        <g><path d=\"M127.18,6.19C121-.05,109.94-.24,101.84.1,90.84.56,80,3.3,69.32,5.77c-8,1.86-16,3.63-24,5.72-9.21,2.41-18.6,4.72-28.14,5.19-4.1.2-8.48,0-12.16-2a6.6,6.6,0,0,1-2.7-9A5.46,5.46,0,0,1,7.07,2.77c4-.22,6.73,8.39-.08,4.58a.49.49,0,0,0-.49.84c4.88,3,10.8,0,5.4-4.91C7.6-.63.4,2.06,0,8-1,24,28.25,17,36.29,15.24,53.74,11.37,70.9,6.44,88.53,3.33c11.1-2,24.75-3.54,35.06,2.19a16,16,0,0,1,6.86,8.85c1.29,4.31-4.35,4.2-7,3.52-4.84-1.26-2.42-8,1.22-3,.61.83,2,0,1.4-.82-2.15-2.93-6.71-4.9-7.12.35s8.36,7.24,11.72,4.47C135,15.32,129.91,9,127.18,6.19Z\"></path></g>\n                    </svg>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
